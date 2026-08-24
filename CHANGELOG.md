@@ -1,3 +1,10 @@
+# [6.9.0](https://github.com/erbilnas/portfolio/compare/v6.8.0...v6.9.0) (2026-08-24)
+
+
+### Features
+
+* **projects:** add mybestgame.lol and sort apps by year ([6de6e07](https://github.com/erbilnas/portfolio/commit/6de6e079ac0410a6aa6ffe41e3003d2deee3b3ad))
+
 # [6.8.0](https://github.com/erbilnas/portfolio/compare/v6.7.1...v6.8.0) (2026-08-15)
 
 

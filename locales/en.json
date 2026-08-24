@@ -88,6 +88,10 @@
     "visitTitle": "Visit {name} - Live Demo",
     "githubTitle": "View {name} source code on GitHub",
     "apps": {
+      "mybestgame": {
+        "name": "mybestgame.lol",
+        "tagline": "A pay-to-rank video game leaderboard. Stack contributions to climb the chart, leave a Game Director message, and watch ranks update as payments clear."
+      },
       "farkle": {
         "name": "Farkle",
         "tagline": "Play Farkle online — two players, six dice, one medieval gamble. Create a room, invite a friend, or play solo vs the computer.",

@@ -5,7 +5,15 @@ import type { SponsoredApp } from "~/types/sponsored-app";
  * Logos: `public/sponsored/` as PNG or SVG with transparency when possible.
  * `brandColor` (hex) should match the logo — it tints the featured stage atmosphere.
  */
-export const sponsoredApps: SponsoredApp[] = [
+const sponsoredAppsRaw: SponsoredApp[] = [
+  {
+    id: "mybestgame",
+    brandColor: "#e11d2e",
+    url: "https://mybestgame.lol/",
+    image: "/sponsored/mybestgame-icon.png",
+    imageFit: "contain",
+    year: "2026",
+  },
   {
     id: "farkle",
     brandColor: "#c2410c",
@@ -80,3 +88,7 @@ export const sponsoredApps: SponsoredApp[] = [
     year: "2022",
   },
 ];
+
+export const sponsoredApps = [...sponsoredAppsRaw].sort(
+  (a, b) => Number(b.year) - Number(a.year),
+);

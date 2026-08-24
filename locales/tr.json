@@ -88,6 +88,10 @@
     "visitTitle": "{name} - Canlı Demo'yu Ziyaret Et",
     "githubTitle": "{name} kaynak kodunu GitHub'da görüntüle",
     "apps": {
+      "mybestgame": {
+        "name": "mybestgame.lol",
+        "tagline": "Ödeme ile sıralanan bir video oyunu liderlik tablosu. Katkılarınızı biriktirin, sıralamada yükselin, Oyun Yönetmeni mesajı bırakın ve ödemeler onaylandıkça sıralamanın güncellenmesini izleyin."
+      },
       "farkle": {
         "name": "Farkle",
         "tagline": "Farkle'ı çevrimiçi oynayın — iki oyuncu, altı zar, ortaçağda bir kumar. Oda oluşturun, arkadaşınızı davet edin veya bilgisayara karşı tek başınıza oynayın.",
